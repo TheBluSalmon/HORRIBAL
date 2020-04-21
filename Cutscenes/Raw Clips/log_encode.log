@@ -1,0 +1,251 @@
+ffmpeg version 3.4.6-0ubuntu0.18.04.1 Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.3.0-16ubuntu3)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.18.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument '/tmp/KritaFFmpegProgress.VmmCxp'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '12'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim%04d.png'.
+Reading option '-crf' ... matched as AVOption 'crf' with argument '23'.
+Reading option '-preset' ... matched as AVOption 'preset' with argument 'medium'.
+Reading option '-profile:v' ... matched as option 'profile' (set profile) with argument 'baseline'.
+Reading option '-pix_fmt' ... matched as option 'pix_fmt' (set pixel format) with argument 'yuv420p'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/AfterShotDead.mp4' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument /tmp/KritaFFmpegProgress.VmmCxp.
+[file @ 0x555b6e6a8060] Setting default whitelist 'file,crypto'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url /home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 12.
+Successfully parsed a group of options.
+Opening an input file: /home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim%04d.png.
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0000.png' for reading
+[file @ 0x555b6e6ab900] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6ac0c0] Statistics: 136568 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0001.png' for reading
+[file @ 0x555b6e6adbe0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6ade60] Statistics: 136492 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0002.png' for reading
+[file @ 0x555b6e6ae1e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6ae380] Statistics: 136353 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0003.png' for reading
+[file @ 0x555b6e6ae700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6ae800] Statistics: 136197 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0004.png' for reading
+[file @ 0x555b6e6aedc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6ae7a0] Statistics: 135963 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0005.png' for reading
+[file @ 0x555b6e6af3e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6ae7a0] Statistics: 135922 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0006.png' for reading
+[file @ 0x555b6e6af5e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6bee20] Statistics: 142027 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0007.png' for reading
+[file @ 0x555b6e6b71e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6af680] Statistics: 143770 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0008.png' for reading
+[file @ 0x555b6e6b7860] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6af680] Statistics: 145445 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0009.png' for reading
+[file @ 0x555b6e6b7f60] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6af680] Statistics: 145372 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0010.png' for reading
+[file @ 0x555b6e6af680] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6b8500] Statistics: 145154 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0011.png' for reading
+[file @ 0x555b6e6b85c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6b88c0] Statistics: 141921 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0012.png' for reading
+[file @ 0x555b6e6b85a0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6b88e0] Statistics: 135398 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0013.png' for reading
+[file @ 0x555b6e6b88e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6b89e0] Statistics: 132962 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0014.png' for reading
+[file @ 0x555b6e6b89a0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6b8aa0] Statistics: 140352 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0015.png' for reading
+[file @ 0x555b6e6b8ca0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6b8fa0] Statistics: 146206 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0016.png' for reading
+[file @ 0x555b6e6b8e80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6b8f80] Statistics: 150620 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0017.png' for reading
+[file @ 0x555b6e6b9180] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6b8f80] Statistics: 152219 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0018.png' for reading
+[file @ 0x555b6e6b9680] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6b8f00] Statistics: 154047 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0019.png' for reading
+[file @ 0x555b6e6b8f00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6b9840] Statistics: 153592 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0020.png' for reading
+[file @ 0x555b6e6b9840] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6b8f60] Statistics: 154194 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0021.png' for reading
+[file @ 0x555b6e6b9840] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6b9de0] Statistics: 152142 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0022.png' for reading
+[file @ 0x555b6e6b9cc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6b9de0] Statistics: 149884 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0023.png' for reading
+[file @ 0x555b6e6b9de0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6b9ee0] Statistics: 135396 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0024.png' for reading
+[file @ 0x555b6e6ba0e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6ba2c0] Statistics: 131589 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0025.png' for reading
+[file @ 0x555b6e6b9e80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6ba500] Statistics: 131728 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0026.png' for reading
+[file @ 0x555b6e6b9e80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6ba6c0] Statistics: 131345 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0027.png' for reading
+[file @ 0x555b6e6ba6c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6ba8a0] Statistics: 131486 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0028.png' for reading
+[file @ 0x555b6e6ba6c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6ba7c0] Statistics: 131681 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0029.png' for reading
+[file @ 0x555b6e6baa40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6ba7e0] Statistics: 132559 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0030.png' for reading
+[file @ 0x555b6e6baa40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6bace0] Statistics: 132320 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0031.png' for reading
+[file @ 0x555b6e6baa20] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6bace0] Statistics: 132140 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0032.png' for reading
+[file @ 0x555b6e6bace0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6bb000] Statistics: 131452 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0033.png' for reading
+[file @ 0x555b6e6bb000] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6bad60] Statistics: 131489 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0034.png' for reading
+[file @ 0x555b6e6bb1e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6bb400] Statistics: 131618 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Opening '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim0035.png' for reading
+[file @ 0x555b6e6bb1c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x555b6e6bb420] Statistics: 131618 bytes read, 0 seeks
+[image2 @ 0x555b6e6a8440] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim%04d.png':
+  Duration: 00:00:01.44, start: 0.000000, bitrate: N/A
+    Stream #0:0, 36, 1/25: Video: png, 1 reference frame, rgba(pc), 1280x720 [SAR 2952:2952 DAR 16:9], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url /home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/AfterShotDead.mp4.
+Applying option profile:v (set profile) with argument baseline.
+Applying option pix_fmt (set pixel format) with argument yuv420p.
+Successfully parsed a group of options.
+Opening an output file: /home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/AfterShotDead.mp4.
+[file @ 0x555b6e6b0920] Setting default whitelist 'file,crypto'
+Successfully opened the file.
+detected 8 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+    Last message repeated 8 times
+[graph 0 input from stream 0:0 @ 0x555b6e708c40] Setting 'video_size' to value '1280x720'
+[graph 0 input from stream 0:0 @ 0x555b6e708c40] Setting 'pix_fmt' to value '28'
+[graph 0 input from stream 0:0 @ 0x555b6e708c40] Setting 'time_base' to value '1/12'
+[graph 0 input from stream 0:0 @ 0x555b6e708c40] Setting 'pixel_aspect' to value '2952/2952'
+[graph 0 input from stream 0:0 @ 0x555b6e708c40] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 0:0 @ 0x555b6e708c40] Setting 'frame_rate' to value '12/1'
+[graph 0 input from stream 0:0 @ 0x555b6e708c40] w:1280 h:720 pixfmt:rgba tb:1/12 fr:12/1 sar:2952/2952 sws_param:flags=2
+[format @ 0x555b6e709ba0] compat: called with args=[yuv420p]
+[format @ 0x555b6e709ba0] Setting 'pix_fmts' to value 'yuv420p'
+[auto_scaler_0 @ 0x555b6e70c640] Setting 'flags' to value 'bicubic'
+[auto_scaler_0 @ 0x555b6e70c640] w:iw h:ih flags:'bicubic' interl:0
+[format @ 0x555b6e709ba0] auto-inserting filter 'auto_scaler_0' between the filter 'Parsed_null_0' and the filter 'format'
+[AVFilterGraph @ 0x555b6e706f60] query_formats: 4 queried, 2 merged, 1 already done, 0 delayed
+[auto_scaler_0 @ 0x555b6e70c640] w:1280 h:720 fmt:rgba sar:2952/2952 -> w:1280 h:720 fmt:yuv420p sar:1/1 flags:0x4
+[libx264 @ 0x555b6e6bc760] using mv_range_thread = 24
+[libx264 @ 0x555b6e6bc760] using SAR=1/1
+[libx264 @ 0x555b6e6bc760] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX
+[libx264 @ 0x555b6e6bc760] profile Constrained Baseline, level 3.1
+[libx264 @ 0x555b6e6bc760] 264 - core 152 r2854 e9a5903 - H.264/MPEG-4 AVC codec - Copyleft 2003-2017 - http://www.videolan.org/x264.html - options: cabac=0 ref=3 deblock=1:0:0 analyse=0x1:0x111 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=12 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/AfterShotDead.mp4':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0, 0, 1/12288: Video: h264 (libx264), 1 reference frame (avc1 / 0x31637661), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], 0/1, q=-1--1, 12 fps, 12288 tbn, 12 tbc
+    Metadata:
+      encoder         : Lavc57.107.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: -1
+Clipping frame in rate conversion by 0.000008
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+    Last message repeated 36 times
+[out_0_0 @ 0x555b6e709940] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[libx264 @ 0x555b6e6bc760] frame=   0 QP=11.37 NAL=3 Slice:I Poc:0   I:3600 P:0    SKIP:0    size=36389 bytes
+[libx264 @ 0x555b6e6bc760] frame=   1 QP=18.99 NAL=2 Slice:P Poc:2   I:6    P:87   SKIP:3507 size=753 bytes
+[libx264 @ 0x555b6e6bc760] frame=   2 QP=19.68 NAL=2 Slice:P Poc:4   I:11   P:56   SKIP:3533 size=427 bytes
+[libx264 @ 0x555b6e6bc760] frame=   3 QP=19.87 NAL=2 Slice:P Poc:6   I:6    P:38   SKIP:3556 size=324 bytes
+[libx264 @ 0x555b6e6bc760] frame=   4 QP=15.07 NAL=2 Slice:P Poc:8   I:9    P:18   SKIP:3573 size=230 bytes
+[libx264 @ 0x555b6e6bc760] frame=   5 QP=21.10 NAL=2 Slice:P Poc:10  I:1    P:24   SKIP:3575 size=174 bytes
+[libx264 @ 0x555b6e6bc760] frame=   6 QP=17.76 NAL=2 Slice:P Poc:12  I:25   P:216  SKIP:3359 size=2148 bytes
+[libx264 @ 0x555b6e6bc760] frame=   7 QP=16.59 NAL=2 Slice:P Poc:14  I:18   P:225  SKIP:3357 size=2455 bytes
+[libx264 @ 0x555b6e6bc760] frame=   8 QP=19.63 NAL=2 Slice:P Poc:16  I:10   P:222  SKIP:3368 size=2229 bytes
+[libx264 @ 0x555b6e6bc760] frame=   9 QP=20.98 NAL=2 Slice:P Poc:18  I:10   P:219  SKIP:3371 size=2241 bytes
+[libx264 @ 0x555b6e6bc760] frame=  10 QP=20.80 NAL=2 Slice:P Poc:20  I:18   P:203  SKIP:3379 size=1746 bytes
+[libx264 @ 0x555b6e6bc760] frame=  11 QP=20.47 NAL=2 Slice:P Poc:22  I:19   P:194  SKIP:3387 size=2208 bytes
+[libx264 @ 0x555b6e6bc760] frame=  12 QP=20.35 NAL=2 Slice:P Poc:24  I:68   P:159  SKIP:3373 size=2975 bytes
+[libx264 @ 0x555b6e6bc760] frame=  13 QP=20.20 NAL=2 Slice:P Poc:26  I:34   P:181  SKIP:3385 size=2391 bytes
+[libx264 @ 0x555b6e6bc760] frame=  14 QP=19.63 NAL=2 Slice:P Poc:28  I:26   P:203  SKIP:3371 size=2174 bytes
+[libx264 @ 0x555b6e6bc760] frame=  15 QP=21.42 NAL=2 Slice:P Poc:30  I:25   P:201  SKIP:3374 size=2183 bytes
+[libx264 @ 0x555b6e6bc760] frame=  16 QP=18.47 NAL=2 Slice:P Poc:32  I:37   P:197  SKIP:3366 size=2515 bytes
+[libx264 @ 0x555b6e6bc760] frame=  17 QP=20.23 NAL=2 Slice:P Poc:34  I:25   P:227  SKIP:3348 size=2529 bytes
+[libx264 @ 0x555b6e6bc760] frame=  18 QP=17.88 NAL=2 Slice:P Poc:36  I:29   P:227  SKIP:3344 size=2450 bytes
+[libx264 @ 0x555b6e6bc760] frame=  19 QP=20.94 NAL=2 Slice:P Poc:38  I:28   P:213  SKIP:3359 size=2380 bytes
+[libx264 @ 0x555b6e6bc760] frame=  20 QP=21.64 NAL=2 Slice:P Poc:40  I:62   P:200  SKIP:3338 size=3316 bytes
+[libx264 @ 0x555b6e6bc760] frame=  21 QP=15.11 NAL=2 Slice:P Poc:42  I:65   P:192  SKIP:3343 size=3932 bytes
+[libx264 @ 0x555b6e6bc760] frame=  22 QP=15.55 NAL=2 Slice:P Poc:44  I:31   P:204  SKIP:3365 size=2159 bytes
+[libx264 @ 0x555b6e6bc760] frame=  23 QP=17.85 NAL=2 Slice:P Poc:46  I:166  P:89   SKIP:3345 size=4532 bytes
+[libx264 @ 0x555b6e6bc760] frame=  24 QP=16.77 NAL=2 Slice:P Poc:48  I:109  P:139  SKIP:3352 size=3328 bytes
+[libx264 @ 0x555b6e6bc760] frame=  25 QP=19.01 NAL=2 Slice:P Poc:50  I:25   P:148  SKIP:3427 size=1169 bytes
+[libx264 @ 0x555b6e6bc760] frame=  26 QP=14.98 NAL=2 Slice:P Poc:52  I:31   P:118  SKIP:3451 size=1016 bytes
+[libx264 @ 0x555b6e6bc760] frame=  27 QP=14.55 NAL=2 Slice:P Poc:54  I:26   P:104  SKIP:3470 size=920 bytes
+[libx264 @ 0x555b6e6bc760] frame=  28 QP=13.95 NAL=2 Slice:P Poc:56  I:34   P:142  SKIP:3424 size=1134 bytes
+[libx264 @ 0x555b6e6bc760] frame=  29 QP=13.26 NAL=2 Slice:P Poc:58  I:37   P:115  SKIP:3448 size=1013 bytes
+[libx264 @ 0x555b6e6bc760] frame=  30 QP=16.31 NAL=2 Slice:P Poc:60  I:41   P:87   SKIP:3472 size=889 bytes
+[libx264 @ 0x555b6e6bc760] frame=  31 QP=18.03 NAL=2 Slice:P Poc:62  I:32   P:110  SKIP:3458 size=882 bytes
+[libx264 @ 0x555b6e6bc760] frame=  32 QP=17.41 NAL=2 Slice:P Poc:64  I:50   P:113  SKIP:3437 size=916 bytes
+[libx264 @ 0x555b6e6bc760] frame=  33 QP=18.49 NAL=2 Slice:P Poc:66  I:18   P:136  SKIP:3446 size=773 bytes
+[libx264 @ 0x555b6e6bc760] frame=  34 QP=15.90 NAL=2 Slice:P Poc:68  I:11   P:152  SKIP:3437 size=580 bytes
+[libx264 @ 0x555b6e6bc760] frame=  35 QP=15.48 NAL=2 Slice:P Poc:70  I:0    P:3    SKIP:3597 size=23 bytes
+frame=   36 fps=0.0 q=-1.0 Lsize=      97kB time=00:00:02.91 bitrate= 271.8kbits/s speed=6.73x    
+[AVIOContext @ 0x555b6e6a8300] Statistics: 0 seeks, 1 writeouts
+video:96kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.997636%
+Input file #0 (/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/Gun_Idle_Anim%04d.png):
+  Input stream #0:0 (video): 36 packets read (5019221 bytes); 36 frames decoded; 
+  Total: 36 packets (5019221 bytes) demuxed
+Output file #0 (/home/theblusalmon/Documents/Godot Projects/DEBUG/Cutscenes/Raw Clips/AfterShotDead.mp4):
+  Output stream #0:0 (video): 36 frames encoded; 36 packets muxed (98132 bytes); 
+  Total: 36 packets (98132 bytes) muxed
+36 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 0x555b6e6acd60] Statistics: 2 seeks, 4 writeouts
+[libx264 @ 0x555b6e6bc760] frame I:1     Avg QP:11.37  size: 36389
+[libx264 @ 0x555b6e6bc760] frame P:35    Avg QP:18.12  size:  1746
+[libx264 @ 0x555b6e6bc760] mb I  I16..4: 82.5%  0.0% 17.5%
+[libx264 @ 0x555b6e6bc760] mb P  I16..4:  0.6%  0.0%  0.3%  P16..4:  1.8%  1.3%  1.0%  0.0%  0.0%    skip:95.0%
+[libx264 @ 0x555b6e6bc760] coded y,uvDC,uvAC intra: 14.0% 23.6% 21.3% inter: 1.3% 1.8% 0.8%
+[libx264 @ 0x555b6e6bc760] i16 v,h,dc,p: 88%  9%  3%  0%
+[libx264 @ 0x555b6e6bc760] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 27% 32% 21%  2%  5%  7%  2%  1%  4%
+[libx264 @ 0x555b6e6bc760] i8c dc,h,v,p: 70% 18% 10%  1%
+[libx264 @ 0x555b6e6bc760] ref P L0: 88.5%  7.4%  4.1%
+[libx264 @ 0x555b6e6bc760] kb/s:260.01
