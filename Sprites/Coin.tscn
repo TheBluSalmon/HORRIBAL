@@ -1,0 +1,30 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Sprites/Coin Animation/Coin.png" type="Texture" id=1]
+[ext_resource path="res://Sprites/Coin Animation/Coin2.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Coin Animation/Coin1.png" type="Texture" id=3]
+[ext_resource path="res://Scripts/Coin.gd" type="Script" id=4]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 3 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "Coin Flipping",
+"speed": 6.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 8, 8 )
+
+[node name="Coin" type="Area2D"]
+script = ExtResource( 4 )
+
+[node name="Coin Sprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "Coin Flipping"
+frame = 2
+playing = true
+
+[node name="Coin Collision" type="CollisionShape2D" parent="."]
+shape = SubResource( 2 )
+[connection signal="body_entered" from="." to="." method="_on_Coin_body_entered"]

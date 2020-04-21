@@ -1,0 +1,63 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Scripts/Pause Menu.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Pause Menu/Main_Menu.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Pause Menu/Main_Menu_Selected.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Pause Menu/Main_Menu_Pressed.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Pause Menu/Continue.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/Pause Menu/Continue_Pressed.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/Pause Menu/Continue_Selected.png" type="Texture" id=7]
+[ext_resource path="res://Sounds/Select.wav" type="AudioStream" id=8]
+
+[node name="Pause Menu" type="CanvasLayer"]
+
+[node name="Pause Menu" type="Control" parent="."]
+pause_mode = 2
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Overlay" type="ColorRect" parent="Pause Menu"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 0.443137 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Continue Btn" type="TextureButton" parent="Pause Menu"]
+margin_left = 256.0
+margin_top = 96.0
+margin_right = 1280.0
+margin_bottom = 608.0
+rect_scale = Vector2( 0.1, 0.1 )
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 6 )
+texture_hover = ExtResource( 7 )
+texture_focused = ExtResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Main Menu Btn" type="TextureButton" parent="Pause Menu"]
+margin_left = 256.0
+margin_top = 176.0
+margin_right = 1280.0
+margin_bottom = 688.0
+rect_scale = Vector2( 0.1, 0.1 )
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 3 )
+texture_focused = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Select_Sound" type="AudioStreamPlayer" parent="Pause Menu"]
+stream = ExtResource( 8 )
+[connection signal="pressed" from="Pause Menu/Continue Btn" to="Pause Menu" method="_on_Continue_Btn_pressed"]
+[connection signal="pressed" from="Pause Menu/Main Menu Btn" to="Pause Menu" method="_on_Main_Menu_Btn_pressed"]
